@@ -4,12 +4,13 @@
   "description": "Connecting Students",
   "main": "index.js",
   "scripts": {
-    "start":"brew services restart mongodb-community",
+    "start": "brew services restart mongodb-community",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Krishna Manchikanti",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
